@@ -14,3 +14,4 @@ Throughout my career, I have developed and maintained various web applications u
 ---
 Check out our [johnmakola](https://johnmakola.com/) for more details.
 "# johnmakola" 
+![John Makola](public/johnmakola.jpg)
