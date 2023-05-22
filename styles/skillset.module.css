@@ -1,0 +1,20 @@
+.containerA {
+  padding: 0 10rem;
+}
+.title {
+  padding: 0.25rem 10rem;
+  margin: 1rem;
+  color: var(--secondaryColor);
+  font-weight: 700;
+  background: var(--backgroundColor);
+}
+.containerB {
+  margin: 0;
+  background-color: var(--contactme);
+}
+
+@media (max-width: 700px) {
+  .containerA {
+    padding: 0 5rem;
+  }
+}

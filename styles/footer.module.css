@@ -1,0 +1,59 @@
+.copyright {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 10px;
+  justify-content: center;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  color: var(--backgroundColor);
+  background-color: var(--secondaryColor);
+  font-size: small;
+}
+.copyright .containerCopyright {
+  width: 50%;
+}
+
+.copyright .containerCopyright ul li {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.copyright a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.copyright a:hover {
+  font-weight: bold;
+  color: #17242a !important;
+}
+@media (max-width: 858px) {
+  .grid {
+    display: block;
+  }
+  .card h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin: 0.5rem;
+    color: #3aafa9;
+  }
+
+  .card p {
+    text-align: center;
+    opacity: 0.6;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .card ul {
+    margin-left: 60px;
+    text-decoration: none;
+  }
+  .copyright {
+    height: fit-content;
+  }
+}

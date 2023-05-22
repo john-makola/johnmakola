@@ -1,0 +1,153 @@
+.Navbar {
+  background-color: var(--primaryColor);
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.Navbar a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.Navbar a:hover {
+  font-weight: bold;
+  color: var(--hoverColor) !important;
+}
+.Navbar .leftSide {
+  flex: 70%;
+  display: flex;
+  align-items: center;
+}
+.Navbar .rightSide {
+  flex: 30%;
+}
+
+.Navbar .leftSide button {
+  display: none;
+}
+
+.Navbar .leftSide #hidden {
+  display: block;
+}
+
+.Navbar .leftSide .links ul {
+  margin-top: 20px;
+}
+
+.Navbar .leftSide .links ul li {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: antiquewhite;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.Navbar li:hover {
+  color: var(--hoverColor) !important;
+}
+
+.Navbar .leftSide p {
+  font-weight: bold;
+}
+.Navbar .leftSide p:hover {
+  color: var(--hoverColor) !important;
+}
+
+.imageContainer {
+  margin-top: 5px;
+  margin-left: 50px;
+  padding: 5px 20px;
+  width: 25%;
+  position: unset !important;
+  z-index: 1;
+}
+
+.image {
+  object-fit: contain;
+  width: 70% !important;
+  position: relative !important;
+  height: unset !important;
+}
+.Navbar .rightSide {
+  display: none;
+}
+
+@media (min-width: 701px) and (max-width: 1120px) {
+  .Navbar {
+    height: 80px;
+  }
+  .imageContainer {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    width: 60%;
+  }
+  .image {
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .Navbar{
+    height: 60px;
+    background-color: var(--secondaryColor);
+  }
+  .Navbar .leftSide button {
+    margin: 10px 10px;
+    display: flex;
+    width: fit-content;
+    font-size: 1.5rem;
+    color: var(--mainGreen);
+    cursor: pointer;
+  }
+  .Navbar .leftSide {
+    background-color: var(--mainGreen);
+    align-items: left;
+    display: flex;
+  }
+  .Navbar .leftSide .links {
+    display: none;
+  }
+
+  .Navbar .imageContainer {
+
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 5px 40px;
+    padding-top: 0;
+    width: 100%;
+  }
+  .Navbar.image {
+    align-items: center;
+    width: 100%;
+  }
+
+  .Navbar .leftSide #hidden {
+    position: absolute;
+    background-color: var(--secondaryColor);
+    left: 0px;
+    top: 50px;
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+
+    z-index: 1;
+  }
+
+  .Navbar .leftSide #hidden ul li {
+    font-size: 1rem;
+    display: block;
+    padding-left: 10px;
+    line-height: 2.5rem;
+  }
+  .Navbar .rightSide {
+    display: none;
+  }
+
+  .faBars {
+    border: none;
+    outline: none;
+  }
+}

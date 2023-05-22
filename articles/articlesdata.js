@@ -1,0 +1,53 @@
+const ArticleData = [
+  {
+    id: 1,
+    title:
+      "Optimizing Project Management Web Portals Using Non-Relational Databases",
+    body: [
+      "Project management web portals(PMP) are internal organization web-based tools that allow managers, executives to manage documents and strategic plans, along with managing key teams within the organization in order to ensure that projects are completed on time and on budget and eliminating the need for time-consuming meetings. Organizations find it easier to disperse information to relevant teams without relying on physical mails or emails, which usually have strict attachment limits. Overtime these systems end up accumulating a substantial huge chunk of both structured and unstructured data deposited on the backend repositories. A web portal is a specially designed website that often serves as the single point of access for information",
+      "Evaluation of web portals data access, processing and storage mechanisms is an important issue in management of organizational data, taking into consideration the exponential growth of unstructured data",
+      "The vast majority of data generated for use by project management portals today is highly unstructured. To optimize the performance and efficiency on these project portals, database designers need to implement optimization techniques to handle management of unstructured data.",
+      "However, unstructured data has historically been very difficult to manage, sort and analyze since it does not have predefined data models like the main stream structured data.With the help of emerging unstructured database management tools and metadata policies, organizations can now fully optimize the performance of project management portals driven by unstructured data by using non-relational (NoSQL) databases or using data lakes to preserve data in raw form.",
+      "Database Optimization on Web Portals",
+      "Database optimization is one of the most effective ways to increase performance of web portals. When using web portals packed with complex plugins and packages, the database size increases and the portal works slower. For instance, the Web portals stores comments, blog posts, and other information that take up a lot of data storage. Each Portal requires its own optimization measures and also has a number of specific plugins. ",
+      "Optimising Non-Relational Databases",
+      "Non-relational databases are often used when data is not structured and requires flexibility. Optimising these databases can be done in a few different ways, depending on the type of data that is being stored.",
+      "Indexing",
+      "Indexing is a common way to optimise non-relational databases. Indexing creates a structure that allows the database to quickly locate and retrieve data. This can be done by creating a separate index table that stores the data in a set order.",
+      "Caching",
+      "Caching is another way to optimise a non-relational database. Caching stores frequently accessed data in memory, so that when the data is requested, it can be quickly retrieved without having to query the database. This can greatly improve performance and reduce load times.",
+      "Compression",
+      "Compression can help to reduce the size of the data stored in a non-relational database. This can help to reduce the amount of storage space needed, as well as improve the performance of the database.",
+      "Sharding",
+      "Sharding is a technique used to spread data across multiple databases. This can help to reduce the load on any one database, as well as improve performance.",
+      "Conclusion:",
+      "Each of these techniques can help to optimise non-relational databases, depending on the type of data that is being stored and the performance requirements.Overall, the best way to optimize non-relational databases will depend on the specific needs and requirements of the project. ",
+    ],
+  },
+  {
+    id: 2,
+    title: "Web Based School Attendance Systems",
+    body: [
+      "The Kenya School Web Based School Attendance Systems.... are internal organization web-based tools that allow managers, executives to manage documents and strategic plans, along with managing key teams within the organization in order to ensure that projects are completed on time and on budget and eliminating the need for time-consuming meetings. Organizations find it easier to disperse information to relevant teams without relying on physical mails or emails, which usually have strict attachment limits. Overtime these systems end up accumulating a substantial huge chunk of both structured and unstructured data deposited on the backend repositories. A web portal is a specially designed website that often serves as the single point of access for information",
+      "Evaluation of web portals data access, processing and storage mechanisms is an important issue in management of organizational data, taking into consideration the exponential growth of unstructured data",
+      "The vast majority of data generated for use by project management portals today is highly unstructured. To optimize the performance and efficiency on these project portals, database designers need to implement optimization techniques to handle management of unstructured data.",
+      "However, unstructured data has historically been very difficult to manage, sort and analyze since it does not have predefined data models like the main stream structured data.With the help of emerging unstructured database management tools and metadata policies, organizations can now fully optimize the performance of project management portals driven by unstructured data by using non-relational (NoSQL) databases or using data lakes to preserve data in raw form.",
+      "Database Optimization on Web Portals",
+      "Database optimization is one of the most effective ways to increase performance of web portals. When using web portals packed with complex plugins and packages, the database size increases and the portal works slower. For instance, the Web portals stores comments, blog posts, and other information that take up a lot of data storage. Each Portal requires its own optimization measures and also has a number of specific plugins. ",
+      "Optimising Non-Relational Databases",
+      "Non-relational databases are often used when data is not structured and requires flexibility. Optimising these databases can be done in a few different ways, depending on the type of data that is being stored.",
+      "Indexing",
+      "Indexing is a common way to optimise non-relational databases. Indexing creates a structure that allows the database to quickly locate and retrieve data. This can be done by creating a separate index table that stores the data in a set order.",
+      "Caching",
+      "Caching is another way to optimise a non-relational database. Caching stores frequently accessed data in memory, so that when the data is requested, it can be quickly retrieved without having to query the database. This can greatly improve performance and reduce load times.",
+      "Compression",
+      "Compression can help to reduce the size of the data stored in a non-relational database. This can help to reduce the amount of storage space needed, as well as improve the performance of the database.",
+      "Sharding",
+      "Sharding is a technique used to spread data across multiple databases. This can help to reduce the load on any one database, as well as improve performance.",
+      "Conclusion:",
+      "Each of these techniques can help to optimise non-relational databases, depending on the type of data that is being stored and the performance requirements.Overall, the best way to optimize non-relational databases will depend on the specific needs and requirements of the project. ",
+    ],
+  },
+];
+
+export { ArticleData };

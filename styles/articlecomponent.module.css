@@ -1,0 +1,134 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.column1 {
+ 
+  width: 30%;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.descriptionContainer {
+  background: var(--backgroundColor);
+  padding: 1.5rem;
+}
+
+.imageContainer {
+  position: unset !important;
+  width: 60% !important;
+}
+
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+  transition: transform 0.2s;
+}
+
+.image:hover {
+  transform: scale(1.2);
+}
+.column2 {
+  
+  width: 70%;
+  padding: 0.5rem;
+  margin-right: 4rem;
+}
+.column2 .titles {
+  padding-left: 1.5rem;
+}
+.column2 p {
+  font-size: 0.95rem;
+  text-align: justify;
+}
+.column2 h3 {
+  color: var(--primaryColor);
+  font-weight: 700;
+}
+.column2 h2 {
+  color: var(--secondaryColor);
+  font-weight: 700;
+}
+.column2 h5 {
+  color: var(--primaryColor);
+  font-weight: 700;
+}
+
+.column1 ul {
+  padding-left: 50px;
+}
+.column1 ul li {
+  font-size: 1rem;
+  list-style-type: none;
+  line-height: 1.5rem;
+}
+.column1 a {
+  font-weight: bold;
+  color: var(--primaryColor);
+}
+.column1 a:hover {
+  color: var(--hoverColor) !important;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(25%, auto));
+  width: var(--max-width);
+  max-width: 100%;
+}
+
+.card {
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--backgroundColor,0));
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
+
+.card span {
+  display: inline-block;
+  transition: transform 200ms;
+}
+
+.card h2 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.card p {
+  margin: 0;
+  opacity: 0.1;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 30ch;
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .imageContainer {
+    width: 100% !important;
+  }
+  .image:hover {
+    transform: scale(1.05);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .column1 {
+    width: 100%;
+  }
+  .column2 {
+    width: 100%;
+  }
+}

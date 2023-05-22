@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+}
+.containerA {
+  color: var(--secondaryColor);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.sideA {
+  width: 50%;
+  line-height: 1.9rem;
+}
+.sideB {
+  margin-top: -18px;
+  width: 70%;
+  line-height: 1.6rem;
+}
+
+.sideB:hover {
+  color: blue;
+}
+.containerA h5 {
+  text-align: center;
+}
+
+.containerA li:hover {
+  font-weight: 700;
+}
+
+.containerA li {
+  padding-left: 20px;
+
+}
+
+.containerB {
+  width: 50%;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+

@@ -1,0 +1,63 @@
+.techSection {
+  width: 100%;
+  background: var(--technologyStack);
+  margin: 0;
+}
+
+.techSection .title {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.techSection .title h3 {
+  color: var(--secondaryColor);
+  font-weight: 700;
+}
+
+.imageContainer {
+  position: unset !important;
+  width: 10% !important;
+}
+
+.image {
+  object-fit: contain;
+  width: 25% !important;
+  position: relative !important;
+  height: unset !important;
+  transition: transform 0.2s;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.containerA {
+  width: 50%;
+  padding: 1rem;
+}
+.containerA h5 {
+  font-weight: 700;
+  text-align: center;
+}
+.containerB {
+  width: 50%;
+  background: green;
+}
+@media (max-width: 1100px) {
+  .imageContainer {
+    width: 20% !important;
+  }
+  .image:hover {
+    transform: scale(1.05);
+  }
+  .container {
+    display: flex;
+    padding: 0.5rem 0.2rem;
+    flex-direction: column;
+  }
+  .containerA {
+    width: 100%;
+  }
+}

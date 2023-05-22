@@ -1,0 +1,28 @@
+.container {
+  justify-content: center;
+  text-align: center;
+}
+.imageContainer {
+  position: unset !important;
+  width: 100% !important;
+}
+
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+  transition: transform 0.2s;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.container ul {
+  background-color: var(--technologyStack);
+  padding: 10px 120px;
+}
+.container li {
+  text-align: left;
+}
